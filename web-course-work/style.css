@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+*{
+    font-family: Jost,sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* header style */
+header {
+    background: url('images/banner-header.jpg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #313131;
+    background-image: linear-gradient(135deg, #0000008d 10%, #93dfffa4 100%);
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+#p-workout{
+    padding: 2%;
+    margin-left: 3%;
+}
+
+.header-button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    cursor: pointer;
+}
+
+/* navigation style */
+.black-nav{
+    background-color: black;
+}
+
+
+/* section style */
+#about-button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    text-decoration: none;
+}
+
+#content{
+    padding-top: 150px; 
+    color: black;
+}
+
+#head-part{
+    /* padding-left: 10%; */
+    text-align: center;
+    padding: 2%;
+}
+
+#info-part{
+    margin-top: 4%;
+    margin-right: 0;
+}
+
+.main-section {
+    height: 100%;
+}
+
+.main-section h1 {
+    text-align: center;
+    font-size: 36px; 
+}
+
+.main-section h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* grid style */
+.row {
+    /* display: flex; */
+    margin-right: 0;
+    background-color: #F2F2F2;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.row h1{
+    margin-top: 2%;
+}
+
+.col h3 {
+    text-align: left;
+    color: #B9D4F1;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.col p {
+    color: #929292;
+}
+
+.image-col {
+    height: 100%;
+    /*grow*/
+    text-align: left;
+    
+
+    max-width: 70%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col {
+    height: 100%;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    max-width: 50%;
+}
+
+#form-col{
+    margin-bottom: 3%;
+}
+
+.coaches-col {
+    height: 100%;
+    width: 30%;
+    text-align: left;
+    padding-top: 3%;
+    padding: 0;
+    flex: 0 0 50%;
+}
+
+.nav-center{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.photo-gal {
+    height: 100%;
+    text-align: left;
+    padding-top: 3%;
+    padding: 0;
+    flex: 0 0 50%;
+}
+
+#photo-h{
+    text-align: center;
+    color: #B9D4F1;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+.coaches-col h3{
+    text-align: left;
+    color: #B9D4F1;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-left: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.coaches-col ul {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#col-2{
+    text-align: right;
+}
+
+#col-2 h3{
+    text-align: right;
+}
+
+/* footer style */
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #93DEFF;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+/* form style */
+.formSection {
+    margin: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: white;
+    background-color: #0000007a;
+    text-align: center;
+    width: 50%;
+}
+
+.formSection h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.formSection h3 {
+    color: white;
+    text-align: center;
+}
+
+label{
+    display: inherit;
+}
+
+input[type=text],
+[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #525252;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input [type=date],
+[type=time],
+select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #343434;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+
+/* display attributes */
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+/*responsive design*/
+@media (max-width: 1800px) {
+
+    /*breakpoint*/
+
+    .photo-gal{
+        max-width: 25%;
+    }
+
+    .coaches-col{
+        max-width: 33.33%;
+    }
+
+    .image-col{
+        flex: 0 0 50%;
+    }
+
+    .col{
+        flex: 0 0 50%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    /*breakpoint*/
+
+    .photo-gal{
+        max-width: 25%;
+    }
+
+    .coaches-col{
+        max-width: 33.33%;
+    }
+    .image-col{
+        height: 100%;
+    text-align: left;
+    max-width: 70%;
+    padding-right: 0;
+    padding-left: 0;
+        flex: 0 0 50%;
+    }
+    .col{
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .photo-gal {
+        max-width: 50%;
+    }
+
+    .image-col {
+        padding-top: 7%;
+    }
+
+    input[type=text], [type=password] {
+        width: 85%;
+    }
+
+    input [type=date], [type=time], select {
+        width: 85%;
+    }
+
+    input[type=submit] {
+        width: 85%;
+    }
+
+    .image-col{
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .col,
+    .image-col,
+    .coaches-col{
+        max-width: 100%;
+    }
+
+    .image-col,
+    .col,
+    .coaches-col{
+        flex: 0 0 100%;
+    }
+
+    .coaches-col{
+        width: 100%;
+    }
+
+    .photo-gal{
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .col,
+    .image-col,
+    .coaches-col{
+        max-width: 100%;
+    }
+
+    .image-col,
+    .col,
+    .coaches-col{
+        flex: 0 0 100%;
+    }
+
+    .coaches-col{
+        width: 100%;
+    }
+
+    .photo-gal{
+        max-width: 100%;
+    }
+
+    /*breakpoint*/
+
+    input[type=text], [type=password] {
+        width: 100%;
+    }
+
+    input [type=date], [type=time], select {
+        width: 100%;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+}
